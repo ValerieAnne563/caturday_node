@@ -1,0 +1,9 @@
+<h1>Every day is Caturday!</h1>
+
+<ul>
+	<% Object.keys(categories).forEach(function(cat_name){ %>
+		<li> <a href="./random/<%= cat_name %>">
+			<%= cat_name %> 
+		</a></li>
+	<% }); %>
+</ul>

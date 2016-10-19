@@ -1,0 +1,14 @@
+<h1>Every day is Caturday!</h1>
+<a href="/">[Home]</a>
+
+<% if(found){ %>
+	<p> Here's a <%= category_name %> photo! </p>	
+<% } else{ %>
+	<!-- TODO: Make this cute. -->
+	<p> No images for category: <%= category_name %> </p>
+<% } %>
+
+
+<a href="<%= source_url %>">
+	<img src= <%= url %>>
+</a>
