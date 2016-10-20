@@ -6,7 +6,7 @@ Content from http://thecatapi.com/
 
 
 ####  run it
-node caturday.js
+npm start
 
 
 #### CATegory browser

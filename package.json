@@ -7,5 +7,8 @@
     "requests": "^0.1.7",
     "underscore": "^1.8.3",
     "xml2json": "^0.10.0"
+  },
+  "scripts": { 
+  	"start": "node ./caturday.js"
   }
 }
